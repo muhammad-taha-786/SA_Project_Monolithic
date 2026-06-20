@@ -21,7 +21,7 @@ RUN npm install
 
 COPY . .
 
-RUN ntm run build
+RUN npm run build
 
 FROM nginx:alpine
 
